@@ -5,5 +5,11 @@
 
 // 1. Importa la tua funzione da names.js
 const createPerson = require('./names');
-
+// stampo risultato a terminale
 console.log(createPerson("Jonathan", "Masa"));
+
+// 2. Importa la tua funzione da hobbies.js
+const hobbys = require('./hobbies');
+// stampo risultato a terminale
+console.log(hobbys("hobbyOne", "hobbyTwo", "hobbyThree"));
+
